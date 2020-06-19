@@ -1,0 +1,19 @@
+#define MOTOR 13
+#define MOTOR2 4
+void setup() {
+
+pinMode(MOTOR, OUTPUT); // set the motor pin as output
+pinMode(MOTOR2, OUTPUT);
+}
+
+void loop() {
+
+digitalWrite(MOTOR, HIGH); // Turn the motor ON
+digitalWrite(MOTOR2, HIGH);
+delay(7000);               // keep the motor ON for 7 Seconds
+
+digitalWrite(MOTOR, LOW);  // Turn the motor OFF
+digitalWrite(MOTOR2, LOW);
+delay(7000);               // keep the motor OFF for 7 Seconds
+
+}
