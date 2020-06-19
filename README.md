@@ -1,1 +1,1 @@
-# DC-motor-control-
+# DC-motors-control-
